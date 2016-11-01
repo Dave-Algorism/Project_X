@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/category_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/accident"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/category_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accident"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:id="@+id/category_fire"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/flame"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/category_tv_fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:id="@+id/category_iv_robbery"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/thief"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/category_tv_robbery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Robbery"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+</LinearLayout>
